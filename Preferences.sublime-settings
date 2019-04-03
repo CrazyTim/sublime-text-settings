@@ -1,0 +1,20 @@
+{
+	"always_show_minimap_viewport": true,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"detect_indentation": false,
+	"enable_tab_scrolling": false,
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"show_encoding": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": false,
+	"word_wrap": false
+}

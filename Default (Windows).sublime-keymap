@@ -1,0 +1,4 @@
+[
+	{ "keys": ["ctrl+u"], "command": "upper_case" },
+	{ "keys": ["ctrl+l"], "command": "lower_case" }
+]
