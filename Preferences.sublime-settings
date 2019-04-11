@@ -4,11 +4,6 @@
 	"detect_indentation": false,
 	"enable_tab_scrolling": false,
 	"font_size": 9,
-	"ignored_packages":
-	[
-		"Markdown",
-		"Vintage"
-	],
 	"indent_guide_options":
 	[
 		"draw_active"
