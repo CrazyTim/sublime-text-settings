@@ -5,8 +5,12 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
+		"Emmet",
+		"JSONLint",
 		"Markdown Extended",
 		"Package Control",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"SublimeCodeIntel"
 	]
 }
