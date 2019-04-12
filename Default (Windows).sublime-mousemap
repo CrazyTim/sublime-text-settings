@@ -1,0 +1,10 @@
+[
+    {
+        "button": "button4",
+        "command": "jump_back"
+    },
+    {
+        "button": "button5",
+        "command": "jump_forward"
+    }
+]
