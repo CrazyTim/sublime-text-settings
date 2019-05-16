@@ -1,7 +1,18 @@
 {
+	"added_words":
+	[
+		"Mornington",
+		"online",
+		"Google",
+		"https",
+		"Josh",
+		"Danielle",
+		"Rachel"
+	],
 	"always_show_minimap_viewport": true,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"detect_indentation": false,
+	"dictionary": "Packages/Language - English/en_GB.dic",
 	"enable_tab_scrolling": false,
 	"font_size": 9,
 	"indent_guide_options":
