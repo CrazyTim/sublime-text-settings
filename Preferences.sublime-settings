@@ -15,6 +15,10 @@
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"enable_tab_scrolling": false,
 	"font_size": 9,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"indent_guide_options":
 	[
 		"draw_active"
@@ -24,5 +28,6 @@
 	"margin": 0,
 	"show_encoding": true,
 	"tab_size": 2,
+	"theme": "Default.sublime-theme",
 	"word_wrap": false
 }
