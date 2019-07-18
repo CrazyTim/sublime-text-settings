@@ -1,4 +1,5 @@
 [
 	{ "keys": ["ctrl+u"], "command": "upper_case" },
-	{ "keys": ["ctrl+l"], "command": "lower_case" }
+	{ "keys": ["ctrl+l"], "command": "lower_case" },
+	{ "keys": ["ctrl+shift+o"], "command": "prompt_select_workspace" } // Project > Quick Switch Project
 ]
