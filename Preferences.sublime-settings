@@ -28,7 +28,9 @@
 		"preset",
 		"presets",
 		"Stinchcombe",
-		"Facebook"
+		"Facebook",
+		"latlong",
+		"pseudocode"
 	],
 	"always_show_minimap_viewport": true,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
