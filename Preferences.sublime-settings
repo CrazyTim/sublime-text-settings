@@ -34,7 +34,11 @@
 		"Yvonne",
 		"Fiona",
 		"Hockley",
-		"Evan"
+		"Evan",
+		"refactor",
+		"deserialise",
+		"deserialiser",
+		"serialiser"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
