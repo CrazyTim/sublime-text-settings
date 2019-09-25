@@ -1,0 +1,12 @@
+{
+  "shell_configs": [
+    {
+      "name": "PowerShell",
+      "cmd": "powershell.exe",
+      "env": {},
+      "enable": true,
+      "default": true,
+      "platforms": ["windows"]
+    }
+  ]
+}

@@ -1,5 +1,9 @@
 [
 	{ "keys": ["ctrl+u"], "command": "upper_case" },
 	{ "keys": ["ctrl+l"], "command": "lower_case" },
-	{ "keys": ["ctrl+shift+o"], "command": "prompt_select_workspace" } // Project > Quick Switch Project
+	{ "keys": ["ctrl+shift+o"], "command": "prompt_select_workspace" }, // Project > Quick Switch Project
+  {"keys": ["alt+`"], "command": "terminus_open",
+   "args": {"cwd": "${file_path:${folder}}"},
+   "tag": "terminal",
+  },
 ]
