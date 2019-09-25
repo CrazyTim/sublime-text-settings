@@ -1,8 +1,9 @@
 {
+	"color_scheme": "Packages/Babel/Monokai Phoenix.tmTheme",
 	"extensions":
 	[
 		"jsx",
-		"js"
-	],
-	"color_scheme": "Packages/Babel/Monokai Phoenix.tmTheme"
+		"js",
+		"mjs"
+	]
 }
