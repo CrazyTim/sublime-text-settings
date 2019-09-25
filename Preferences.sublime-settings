@@ -33,6 +33,7 @@
 		"pseudocode"
 	],
 	"always_show_minimap_viewport": true,
+	"auto_complete_commit_on_tab": true,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"detect_indentation": false,
 	"dictionary": "Packages/User/en_AU.dic",
