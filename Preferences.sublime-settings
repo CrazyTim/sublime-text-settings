@@ -38,7 +38,11 @@
 		"refactor",
 		"deserialise",
 		"deserialiser",
-		"serialiser"
+		"serialiser",
+		"refactoring",
+		"apps",
+		"dev",
+		"app"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
