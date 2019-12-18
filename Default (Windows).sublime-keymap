@@ -6,4 +6,44 @@
    "args": {"cwd": "${file_path:${folder}}"},
    "tag": "terminal",
   },
+
+  // turn off auto-closing
+  { "keys": ["("], "command": "insert", "args": {"characters": "("}},
+  { "keys": ["["], "command": "insert", "args": {"characters": "["}},
+  { "keys": ["{"], "command": "insert", "args": {"characters": "{"}},
+  { "keys": ["'"], "command": "insert", "args": {"characters": "'"}},
+  { "keys": ["\""], "command": "insert", "args": {"characters": "\""}},
+  
+  // preserve selection auto-wrapping
+  { "keys": ["("], "command": "insert_snippet", "args": {"contents": "(${0:$SELECTION})"}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+    ]
+  },
+  { "keys": ["["], "command": "insert_snippet", "args": {"contents": "[${0:$SELECTION}]"}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+    ]
+  },
+  { "keys": ["{"], "command": "insert_snippet", "args": {"contents": "{${0:$SELECTION}}"}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+    ]
+  },
+  { "keys": ["'"], "command": "insert_snippet", "args": {"contents": "'${0:$SELECTION}'"}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+    ]
+  },
+  { "keys": ["\""], "command": "insert_snippet", "args": {"contents": "\"${0:$SELECTION}\""}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+    ]
+  },
+
 ]
