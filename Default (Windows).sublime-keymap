@@ -1,11 +1,20 @@
 [
+  
+  // change selected text to upper/lower case
 	{ "keys": ["ctrl+u"], "command": "upper_case" },
 	{ "keys": ["ctrl+l"], "command": "lower_case" },
-	{ "keys": ["ctrl+shift+o"], "command": "prompt_select_workspace" }, // Project > Quick Switch Project
+
+  // shortcut for `Project > Quick Switch Project`
+	{ "keys": ["ctrl+shift+o"], "command": "prompt_select_workspace" }, 
+  
+  // open terminal in a new tab
   {"keys": ["alt+`"], "command": "terminus_open",
    "args": {"cwd": "${file_path:${folder}}"},
    "tag": "terminal",
   },
+
+  // shortcut for `Project > Refresh Folders`
+  {"keys": ["f5"], "command": "refresh_folder_list"}, 
 
   // turn off auto-closing
   { "keys": ["("], "command": "insert", "args": {"characters": "("}},
