@@ -1,3 +1,3 @@
-# My Sublime Text 3 User Files
+# My Sublime Text Settings
 
-**Folder (Windows):** `C:\Users\{user-name}\AppData\Roaming\Sublime Text 3\Packages\User\`
+**Windows:** `%AppData%\Sublime Text 3\Packages\User\`
