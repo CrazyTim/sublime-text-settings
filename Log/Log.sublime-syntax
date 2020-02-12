@@ -1,0 +1,64 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+# See also https://www.sublimetext.com/docs/3/scope_naming.html
+name: 'Log'
+file_extensions:
+  - log
+scope: source.log
+contexts:
+  main:
+
+    # strings
+    - match: '"|'''
+      scope: punctuation.definition.string.begin.log
+      push: quoted_string
+
+    # sql/code fragment
+    - match: '<sql>|<code>'
+      scope: punctuation.definition.string.begin.log
+      push: sql
+
+    # date timestamp end
+    - match: 'A(?=\])'
+      scope: constant.numeric.log # purple
+
+    # date literal
+    - match: '(?=(''|")?)(\d\d\/\d\d\/\d\d)(?=(''|")?)'
+      scope: string.quoted.double.log
+
+    # numbers
+    - match: '\b(-)?[0-9]+\b'
+      scope: constant.numeric.log # purple
+
+    # function name
+    - match: '(?<=\.)(\w)+(?=(\())'
+      scope: variable.function.member.log
+
+    # duration
+    - match: '\[(\d|\.)*\](\n|$)'
+      scope: keyword.control.log # red
+
+    # warning type
+    - match: '\[warn\]'
+      scope: invalid.illegal.unknown-escape.c # pink
+
+    # error type
+    - match: '^(.*?)\[error](.*)'
+      scope: invalid.illegal.unknown-escape.c # pink
+
+    # error unhandled type
+    - match: '^(.*?)\[error_u](.*)'
+      scope: invalid.illegal.unknown-escape.c # pink
+
+  quoted_string:
+    - meta_scope: string.quoted.double.log
+    - match: '"|'''
+      scope: punctuation.definition.string.end.log
+      pop: true
+
+  sql:
+    - meta_scope: string.quoted.double.log
+    - match: '<\\sql>|<\\code>'
+      scope: punctuation.definition.string.end.log
+      pop: true
