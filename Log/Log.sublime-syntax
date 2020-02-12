@@ -9,15 +9,20 @@ scope: source.log
 contexts:
   main:
 
-    # strings
-    - match: '"|'''
+    # single-quoted string
+    - match: ''''
       scope: punctuation.definition.string.begin.log
-      push: quoted_string
+      push: quoted_string_single
 
-    # sql/code fragment
-    - match: '<sql>|<code>'
+    # double-quoted string
+    - match: '"'
       scope: punctuation.definition.string.begin.log
-      push: sql
+      push: quoted_string_double
+
+    # code block
+    - match: '(<code>)|(<sql>)'
+      scope: punctuation.definition.string.begin.log
+      push: code_block
 
     # date timestamp end
     - match: 'A(?=\])'
@@ -51,14 +56,20 @@ contexts:
     - match: '^(.*?)\[error_u](.*)'
       scope: invalid.illegal.unknown-escape.c # pink
 
-  quoted_string:
+  quoted_string_double:
     - meta_scope: string.quoted.double.log
-    - match: '"|'''
+    - match: '"'
       scope: punctuation.definition.string.end.log
       pop: true
 
-  sql:
+  quoted_string_single:
+    - meta_scope: string.quoted.single.log
+    - match: ''''
+      scope: punctuation.definition.string.end.log
+      pop: true
+
+  code_block:
     - meta_scope: string.quoted.double.log
-    - match: '<\\sql>|<\\code>'
+    - match: '(<\/code>)|(<\/sql>)'
       scope: punctuation.definition.string.end.log
       pop: true
