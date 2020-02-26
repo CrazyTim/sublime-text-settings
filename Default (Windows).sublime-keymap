@@ -4,12 +4,6 @@
 	{ "keys": ["ctrl+u"], "command": "upper_case" },
 	{ "keys": ["ctrl+l"], "command": "lower_case" },
 
-  { "keys": ["ctrl+b"], 
-    "command": "markdown_preview", 
-    "args": {"target": "browser", "parser":"github"},
-    "context": [ {"key": "selector", "operator": "equal", "operand": "text.html.markdown.gfm"} ]
-  },
-
   // shortcut for `Project > Quick Switch Project`
 	{ "keys": ["ctrl+shift+o"], "command": "prompt_select_workspace" }, 
   
