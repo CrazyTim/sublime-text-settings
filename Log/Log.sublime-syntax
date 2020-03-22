@@ -24,8 +24,8 @@ contexts:
       scope: punctuation.definition.string.begin.log
       push: code_block
 
-    # date timestamp end
-    - match: 'A(?=\])'
+    # timestamp end
+    - match: '(A|P)(?=\])'
       scope: constant.numeric.log # purple
 
     # date literal
