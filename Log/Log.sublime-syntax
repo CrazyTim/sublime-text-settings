@@ -28,10 +28,6 @@ contexts:
     - match: '(A|P)(?=\])'
       scope: constant.numeric.log # purple
 
-    # date literal
-    - match: '(?=(''|")?)(\d\d\/\d\d\/\d\d)(?=(''|")?)'
-      scope: string.quoted.double.log
-
     # numbers
     - match: '\b(-)?[0-9]+\b'
       scope: constant.numeric.log # purple
