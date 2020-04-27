@@ -1,0 +1,5 @@
+// These settings override both User and Default settings for the YAML syntax
+{
+  // structure in a yaml file is determined by spaces, so we should always see them.
+  "draw_white_space": "all",
+}
