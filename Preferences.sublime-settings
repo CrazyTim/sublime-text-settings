@@ -61,6 +61,7 @@
 	"line_padding_top": 2,
 	"margin": 0,
 	"show_encoding": true,
+	"show_line_endings": true,
 	"tab_size": 2,
 	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
