@@ -28,7 +28,13 @@
 		"app",
 		"playlist",
 		"playlists",
-		"vs"
+		"vs",
+		"username",
+		"spec",
+		"subquery",
+		"subqueries",
+		"config",
+		"setup"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
