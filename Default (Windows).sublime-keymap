@@ -1,28 +1,60 @@
 [
 
-  // change selected text to upper/lower case
-	{ "keys": ["ctrl+u"], "command": "upper_case" },
-	{ "keys": ["ctrl+l"], "command": "lower_case" },
-
-  // shortcut for `Project > Quick Switch Project`
-	{ "keys": ["ctrl+shift+o"], "command": "prompt_select_workspace" },
-
-  // open terminal in a new tab
-  {"keys": ["alt+`"], "command": "terminus_open",
-   "args": {"cwd": "${file_path:${folder}}"},
-   "tag": "terminal",
+  // Change selected text to upper case
+  {
+    "keys": ["ctrl+u"],
+    "command": "upper_case"
   },
 
-  // shortcut for `Project > Refresh Folders`
-  {"keys": ["f5"], "command": "refresh_folder_list" },
+  // Change selected text to lower case
+  {
+    "keys": ["ctrl+l"],
+    "command": "lower_case"
+  },
 
-  // toggle word wrap
-  {"keys": ["ctrl+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
+  // Shortcut for `Project > Quick Switch Project`
+  {
+    "keys": ["ctrl+shift+o"],
+    "command": "prompt_select_workspace"
+  },
 
-  // make keyboard shortcut for 'move line up/down' the same as Visual Studio
-  { "keys": ["alt+up"], "command": "swap_line_up" },
-  { "keys": ["alt+down"], "command": "swap_line_down" },
-  { "keys": ["ctrl+shift+down"], "command": "null" }, // disable default
-  { "keys": ["ctrl+shift+up"], "command": "null" }, // disable default
+  // Open terminal in a new tab
+  {
+    "keys": ["alt+`"],
+    "command": "terminus_open",
+    "args": {"cwd": "${file_path:${folder}}"},
+    "tag": "terminal",
+  },
+
+  // Shortcut for `Project > Refresh Folders`
+  {
+    "keys": ["f5"],
+    "command": "refresh_folder_list"
+  },
+
+  // Toggle word wrap
+  {
+    "keys": ["ctrl+w"],
+    "command": "toggle_setting",
+    "args": {"setting": "word_wrap"}
+  },
+
+  // Make keyboard shortcut for 'move line up/down' the same as Visual Studio
+  {
+    "keys": ["alt+up"],
+    "command": "swap_line_up"
+  },
+  {
+    "keys": ["alt+down"],
+    "command": "swap_line_down"
+  },
+  { // Disable default
+    "keys": ["ctrl+shift+down"],
+    "command": "null"
+  },
+  { // Disable default
+    "keys": ["ctrl+shift+up"],
+    "command": "null"
+  },
 
 ]
