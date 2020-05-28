@@ -1,12 +1,12 @@
 [
-  
+
   // change selected text to upper/lower case
 	{ "keys": ["ctrl+u"], "command": "upper_case" },
 	{ "keys": ["ctrl+l"], "command": "lower_case" },
 
   // shortcut for `Project > Quick Switch Project`
-	{ "keys": ["ctrl+shift+o"], "command": "prompt_select_workspace" }, 
-  
+	{ "keys": ["ctrl+shift+o"], "command": "prompt_select_workspace" },
+
   // open terminal in a new tab
   {"keys": ["alt+`"], "command": "terminus_open",
    "args": {"cwd": "${file_path:${folder}}"},
@@ -14,7 +14,10 @@
   },
 
   // shortcut for `Project > Refresh Folders`
-  {"keys": ["f5"], "command": "refresh_folder_list" }, 
+  {"keys": ["f5"], "command": "refresh_folder_list" },
+
+  // toggle word wrap
+  {"keys": ["ctrl+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
 
   // make keyboard shortcut for 'move line up/down' the same as Visual Studio
   { "keys": ["alt+up"], "command": "swap_line_up" },
