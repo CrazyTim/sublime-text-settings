@@ -34,7 +34,9 @@
 		"subquery",
 		"subqueries",
 		"config",
-		"setup"
+		"setup",
+		"stateful",
+		"relatable"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
