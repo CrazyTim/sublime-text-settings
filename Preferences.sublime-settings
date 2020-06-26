@@ -60,6 +60,7 @@
 	"font_size": 9,
 	"ignored_packages":
 	[
+		"CSS",
 		"Vintage"
 	],
 	"indent_guide_options":
