@@ -48,6 +48,7 @@
 	"copy_with_empty_selection": false,
 	"detect_indentation": false,
 	"dictionary": "Packages/User/en_AU.dic",
+	"draw_minimap_border": true,
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
