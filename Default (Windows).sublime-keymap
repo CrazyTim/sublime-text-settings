@@ -57,4 +57,12 @@
     "command": "null"
   },
 
+  // Emulate the goto symbol shortcut in VS Code
+  // Avoid ctrl+r which refreshes the page in Chrome
+  {
+    "keys": ["ctrl+t"],
+    "command": "show_overlay",
+    "args": {"overlay": "goto", "text": "@"}
+  },
+
 ]
