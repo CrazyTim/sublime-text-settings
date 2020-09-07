@@ -94,7 +94,17 @@
 		"minimap",
 		"destructure",
 		"Arial",
-		"tween"
+		"tween",
+		"namespace",
+		"hardcode",
+		"util",
+		"tradeoff",
+		"tradeoffs",
+		"admins",
+    "composable",
+    "placeholder",
+		"iterable",
+    "refactor"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
