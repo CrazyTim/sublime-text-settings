@@ -101,10 +101,10 @@
 		"tradeoff",
 		"tradeoffs",
 		"admins",
-    "composable",
-    "placeholder",
+		"composable",
+		"placeholder",
 		"iterable",
-    "refactor"
+		"refactor"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
@@ -112,6 +112,7 @@
 	"auto_match_enabled": false,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"copy_with_empty_selection": false,
+	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"dictionary": "Packages/User/en_AU.dic",
 	"draw_minimap_border": true,
