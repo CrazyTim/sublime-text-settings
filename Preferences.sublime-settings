@@ -105,7 +105,11 @@
 		"placeholder",
 		"iterable",
 		"refactor",
-		"chainable"
+		"chainable",
+		"NuGet",
+		"tech",
+		"autocomplete",
+		"preload"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
