@@ -1,0 +1,42 @@
+[
+
+  // Word wrap
+  {
+    "keys": ["super+w"],
+    "command": "toggle_setting",
+    "args": {"setting": "word_wrap"},
+  },
+
+  // Swap line (Make same as VS Code, and simpler than the default)
+  {
+    "keys": ["alt+up"],
+    "command": "swap_line_up",
+  },
+  {
+    "keys": ["alt+down"],
+    "command": "swap_line_down",
+  },
+  { // Disable default
+    "keys": ["ctrl+super+up"],
+    "command": "",
+  },
+  { // Disable default
+    "keys": ["ctrl+super+down"],
+    "command": "",
+  },
+
+  // Goto symbol (Make same as VS Code)
+  {
+    "keys": ["super+t"],
+    "command": "show_overlay",
+    "args": {"overlay": "goto", "text": "@"},
+  },
+
+  // Block comment
+  {
+    "keys": ["super+shift+/"],
+    "command": "toggle_comment",
+    "args": { "block": true },
+  },
+
+]

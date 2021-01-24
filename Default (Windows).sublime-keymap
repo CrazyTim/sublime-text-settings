@@ -1,21 +1,21 @@
 [
 
-  // Change selected text to upper case
+  // Upper case
   {
     "keys": ["ctrl+u"],
-    "command": "upper_case"
+    "command": "upper_case",
   },
 
-  // Change selected text to lower case
+  // Lower case
   {
     "keys": ["ctrl+l"],
-    "command": "lower_case"
+    "command": "lower_case",
   },
 
-  // Shortcut for `Project > Quick Switch Project`
+  // Project > Quick Switch Project
   {
     "keys": ["ctrl+shift+o"],
-    "command": "prompt_select_workspace"
+    "command": "prompt_select_workspace",
   },
 
   // Open terminal in a new tab
@@ -26,43 +26,42 @@
     "tag": "terminal",
   },
 
-  // Shortcut for `Project > Refresh Folders`
+  // Project > Refresh Folders
   {
     "keys": ["f5"],
-    "command": "refresh_folder_list"
+    "command": "refresh_folder_list",
   },
 
-  // Toggle word wrap
+  // Word wrap
   {
     "keys": ["ctrl+w"],
     "command": "toggle_setting",
-    "args": {"setting": "word_wrap"}
+    "args": {"setting": "word_wrap"},
   },
 
-  // Make keyboard shortcut for 'move line up/down' the same as Visual Studio
+  // Swap line (Make same as VS Code, and simpler than the default)
   {
     "keys": ["alt+up"],
-    "command": "swap_line_up"
+    "command": "swap_line_up",
   },
   {
     "keys": ["alt+down"],
-    "command": "swap_line_down"
+    "command": "swap_line_down",
   },
   { // Disable default
     "keys": ["ctrl+shift+down"],
-    "command": "null"
+    "command": "",
   },
   { // Disable default
     "keys": ["ctrl+shift+up"],
-    "command": "null"
+    "command": "",
   },
 
-  // Emulate the goto symbol shortcut in VS Code
-  // Avoid ctrl+r which refreshes the page in Chrome
+  // Goto symbol (Make same as VS Code)
   {
     "keys": ["ctrl+t"],
     "command": "show_overlay",
-    "args": {"overlay": "goto", "text": "@"}
+    "args": {"overlay": "goto", "text": "@"},
   },
 
 ]
