@@ -1,5 +1,17 @@
 [
 
+  // Upper case
+  {
+    "keys": ["super+u"],
+    "command": "upper_case",
+  },
+
+  // Lower case
+  {
+    "keys": ["super+l"],
+    "command": "lower_case",
+  },
+
   // Word wrap
   {
     "keys": ["super+w"],
