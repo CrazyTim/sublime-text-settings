@@ -4,6 +4,7 @@
   "auto_match_enabled": false,
   "mde.list_indent_bullets": ["-"], // override default. I don't like the look of "+", and "*" requires the shift key or num pad.
   "spell_check": true,
+  "trim_trailing_white_space_on_save": false, // Interferes with bullet points
   "wrap_width": 0,
   "fold_buttons": false,
   "extensions":
