@@ -8,6 +8,7 @@
 		"A File Icon",
 		"ApacheConf",
 		"Babel",
+		"Compare Side-By-Side",
 		"CSS3",
 		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
@@ -22,6 +23,6 @@
 		"Terminus",
 		"TypeScript",
 		"VBDotNet",
-		"VBScript"
-	]
+		"VBScript",
+	],
 }
