@@ -152,6 +152,7 @@
 		".sass-cache",
 	],
 	"font_size": 9,
+  "hide_new_tab_button": false,
 	"ignored_packages":
 	[
 		"CSS",
