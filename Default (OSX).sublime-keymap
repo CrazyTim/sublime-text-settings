@@ -51,4 +51,10 @@
     "args": { "block": true },
   },
 
+  // Duplicate line (Make same as VS Code)
+  {
+    "keys": ["shift+alt+down"],
+    "command": "duplicate_line"
+  },
+
 ]
