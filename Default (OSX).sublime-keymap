@@ -12,16 +12,14 @@
     "command": "lower_case",
   },
 
-  // Word wrap
-  // Align with VS Code
+  // Word wrap (align with vscode)
   {
     "keys": ["alt+z"],
     "command": "toggle_setting",
     "args": {"setting": "word_wrap"},
   },
 
-  // Swap line
-  // Align with VS Code
+  // Swap line (align with vsode)
   {
     "keys": ["alt+up"],
     "command": "swap_line_up",
@@ -39,8 +37,7 @@
     "command": "",
   },
 
-  // Goto symbol
-  // Align with VS Code
+  // Goto symbol (align with vscode)
   {
     "keys": ["super+t"],
     "command": "show_overlay",
@@ -54,11 +51,16 @@
     "args": { "block": true },
   },
 
-  // Duplicate line
-  // Align with VS Code
+  // Duplicate line up (align with vscode)
+  {
+    "keys": ["shift+alt+up"],
+    "command": "duplicate_line", // TODO: how to move dupe line up?
+  },
+
+  // Duplicate line down (align with vscode)
   {
     "keys": ["shift+alt+down"],
-    "command": "duplicate_line"
+    "command": "duplicate_line",
   },
 
 ]
